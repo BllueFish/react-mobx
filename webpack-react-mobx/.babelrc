@@ -1,0 +1,8 @@
+{
+  "plugins": ["react-hot-loader/babel","transform-decorators-legacy","transform-decorators"],
+  "presets": [
+    "es2015", // webpack 2 本身已支持es6 module{"modules": false}
+    "react",
+    "stage-1"
+  ]
+}
